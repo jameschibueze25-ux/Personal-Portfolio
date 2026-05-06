@@ -33,12 +33,12 @@ function ContactSection() {
     // py-20: vertical spacing
     // bg-white: white background
     // text-center: centers heading
-    <section className="px-8 py-20 bg-white text-center" id="contact">
+    <section className="px-4 md:px-8 py-20 bg-white text-center" id="contact">
 
       {/* text-7xl: huge heading to match others
           font-bold: bold
           mb-12: margin bottom */}
-      <h2 className="text-7xl font-bold mb-12">Contact Me</h2>
+      <h2 className="text-4xl md:text-7xl font-bold mb-12">Contact Me</h2>
 
       {/* max-w-xl: limits form width
           mx-auto: centers form horizontally

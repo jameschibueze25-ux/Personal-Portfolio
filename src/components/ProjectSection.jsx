@@ -6,12 +6,12 @@ function ProjectSection() {
     // py-20: vertical spacing
     // bg-white: white background
     // text-center: centers all child text
-    <section className="px-8 py-20 bg-white text-center">
+    <section className="px-4 md:px-8 py-20 bg-white text-center">
 
       {/* text-7xl: massive heading to match other sections
           font-bold: bold heading
           mb-12: margin bottom for spacing */}
-      <h2 className="text-7xl font-bold mb-12">Projects</h2>
+      <h2 className="text-4xl md:text-7xl font-bold mb-12">Projects</h2>
 
       {/* w-64: fixed width
           mx-auto: centers the image horizontally

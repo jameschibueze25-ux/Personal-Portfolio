@@ -3,9 +3,9 @@ function SkillSection() {
     // px-8: horizontal padding
     // py-20: vertical spacing
     // bg-gray-50: light grey background
-    <section className="px-8 py-20 bg-gray-50">
+    <section className="px-4 md:px-8 py-20 bg-gray-50">
 
-      <h2 className="text-7xl font-bold mb-16">What I do?</h2>
+      <h2 className="text-4xl md:text-7xl font-bold mb-16">What I do?</h2>
 
       {/* Each skill row:
           border-t: line on top of each row
@@ -14,7 +14,7 @@ function SkillSection() {
           gap-12: space between columns
           items-start: align items to top */}
       
-      <div className="py-8 flex gap-12 items-start">
+      <div className="py-8 flex flex-col md:flex-row gap-4 md:gap-12 items-start">
         <p className="font-bold flex-1">[01]</p>
         <h3 className="text-2xl font-bold flex-1">React</h3>
         <p className="text-gray-600 flex-1">
@@ -22,7 +22,7 @@ function SkillSection() {
         </p>
       </div>
 
-      <div className="border-t py-8 flex gap-12 items-start">
+      <div className="border-t py-8 flex flex-col md:flex-row gap-4 md:gap-12 items-start">
         <p className="font-bold flex-1">[02]</p>
         <h3 className="text-2xl font-bold flex-1">JavaScript</h3>
         <p className="text-gray-600 flex-1">
@@ -30,7 +30,7 @@ function SkillSection() {
         </p>
       </div>
 
-      <div className="border-t py-8 flex gap-12 items-start">
+      <div className="border-t py-8 flex flex-col md:flex-row gap-4 md:gap-12 items-start">
         <p className="font-bold flex-1">[03]</p>
         <h3 className="text-2xl font-bold flex-1">HTML & CSS</h3>
         <p className="text-gray-600 flex-1">
@@ -38,7 +38,7 @@ function SkillSection() {
         </p>
       </div>
 
-      <div className="border-t py-8 flex gap-12 items-start">
+      <div className="border-t py-8 flex flex-col md:flex-row gap-4 md:gap-12 items-start">
         <p className="font-bold flex-1">[04]</p>
         <h3 className="text-2xl font-bold flex-1">Git & GitHub</h3>
         <p className="text-gray-600 flex-1">
@@ -47,7 +47,7 @@ function SkillSection() {
       </div>
 
       {/* Last row also has border-b to close it off */}
-      <div className="border-t border-b py-8 flex gap-12 items-start">
+      <div className="border-t border-b py-8 flex flex-col md:flex-row gap-4 md:gap-12 items-start">
         <p className="font-bold flex-1">[05]</p>
         <h3 className="text-2xl font-bold flex-1">Tailwind CSS</h3>
         <p className="text-gray-600 flex-1">
