@@ -17,7 +17,7 @@ function AboutSection() {
         {/* Left-side bio text
             flex-1: takes equal space */}
         <div className="flex-1">
-          <p className="text-lg md:text-2xl text-gray-700 pt-4 leading-relaxed">
+          <p className="max-w-[16rem] md:max-w-[24rem] text-lg md:text-2xl text-gray-700 pt-4 leading-relaxed">
             Self-taught frontend developer building
   <br />  clean and responsive websites with React.
   <br /> From warehouse shifts to writing code,
@@ -33,7 +33,7 @@ function AboutSection() {
           <img 
             src={JamesPng} 
             alt="James Eboka" 
-            className="w-64 h-64 md:w-96 md:h-96 object-cover rounded-[3rem] mx-auto"
+            className="w-64 h-64 md:w-96 md:h-96 rounded-[3rem] mx-auto"
           />
         </div>
 
