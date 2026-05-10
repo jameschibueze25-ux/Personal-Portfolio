@@ -1,35 +1,46 @@
-import MaintenanceGif from '../Maintenance.gif'
-
 function ProjectSection() {
   return (
     // px-8: horizontal padding
     // py-20: vertical spacing
     // bg-white: white background
-    // text-center: centers all child text
-    <section className="px-4 md:px-8 py-20 bg-white text-center">
+    // text-center: centers heading
+    <section id="projects" className="px-8 py-20 bg-white text-center">
 
-      {/* text-7xl: massive heading to match other sections
-          font-bold: bold heading
-          mb-12: margin bottom for spacing */}
-      <h2 className="text-4xl md:text-7xl font-bold mb-12">Projects</h2>
+      {/* text-7xl: huge heading
+          font-bold: bold
+          mb-12: margin bottom */}
+      <h2 className="text-5xl md:text-7xl font-bold mb-12">Projects</h2>
 
-      {/* w-64: fixed width
-          mx-auto: centers the image horizontally
-          mb-8: margin bottom to separate from text */}
-      <img 
-        src={MaintenanceGif} 
-        alt="Maintenance" 
-        className="w-64 mx-auto mb-8" 
-      />
+      {/* max-w-md: limits card width
+          mx-auto: centers it
+          p-8: padding inside card
+          border: light grey border
+          rounded-2xl: rounded corners
+          hover:shadow-lg: shadow on hover
+          transition: smooth hover effect
+          block: makes the link a block element
+          text-left: aligns text inside left */}
+      <a 
+        href="https://james-weather.vercel.app/"
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="block max-w-md mx-auto p-8 border border-gray-200 rounded-2xl hover:shadow-lg transition text-left"
+      >
+        <h3 className="text-2xl font-bold mb-3">🌤️ Weather App</h3>
+        
+        <p className="text-gray-600 mb-4">
+          Real-time weather forecasts using OpenWeatherMap API.
+        </p>
+        
+        {/* Tech stack tags - small pills */}
+        <div className="flex flex-wrap gap-2">
+          <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">React</span>
+          <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Tailwind CSS</span>
+          <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">useEffect</span>
+          <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">API</span>
+        </div>
+      </a>
 
-      {/* text-xl: larger text for the message
-          text-gray-600: soft grey color
-          max-w-2xl: limit width for cleaner reading
-          mx-auto: center the paragraph */}
-      <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-        🚧 Projects in progress. Currently building real-world projects. Check back soon!
-      </p>
-      
     </section>
   )
 }
