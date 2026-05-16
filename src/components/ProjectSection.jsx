@@ -20,27 +20,49 @@ function ProjectSection() {
           transition: smooth hover effect
           block: makes the link a block element
           text-left: aligns text inside left */}
-      <a 
-        href="https://james-weather.vercel.app/"
-        target="_blank" 
-        rel="noopener noreferrer"
-        className="block max-w-md mx-auto p-8 border border-gray-200 rounded-2xl hover:shadow-lg transition text-left"
-      >
-        <h3 className="text-2xl font-bold mb-3">🌤️ Weather App</h3>
-        
-        <p className="text-gray-600 mb-4">
-          Real-time weather forecasts using OpenWeatherMap API.
-        </p>
-        
-        {/* Tech stack tags - small pills */}
-        <div className="flex flex-wrap gap-2">
-          <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">React</span>
-          <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Tailwind CSS</span>
-          <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">useEffect</span>
-          <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">API</span>
-        </div>
-      </a>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+        <a
+          href="https://james-weather.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block p-8 border border-gray-200 rounded-2xl hover:shadow-lg transition text-left"
+        >
+          <h3 className="text-2xl font-bold mb-3">🌤️ Weather App</h3>
 
+          <p className="text-gray-600 mb-4">
+            Real-time weather forecasts using OpenWeatherMap API.
+          </p>
+
+          <div className="flex flex-wrap gap-2">
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">React</span>
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Tailwind CSS</span>
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">useEffect</span>
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">API</span>
+          </div>
+        </a>
+
+        <a
+          href="https://james-ai-cover-letter-generator-lake.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block p-8 border border-gray-200 rounded-2xl hover:shadow-lg transition text-left"
+        >
+          <h3 className="text-2xl font-bold mb-3">AI COVER LETTER GENERATOR</h3>
+
+          <p className="text-gray-600 mb-4">
+            AI-powered cover letter generator for job applications.
+          </p>
+
+          <div className="flex flex-wrap gap-2">
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">React</span>
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Vite</span>
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Tailwind CSS</span>
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Async/Await</span>
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Groq API</span>
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Fetch API</span>
+          </div>
+        </a>
+      </div>
     </section>
   )
 }
