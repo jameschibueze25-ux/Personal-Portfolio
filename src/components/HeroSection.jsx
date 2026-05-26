@@ -3,7 +3,7 @@ function HeroSection() {
     // px-8: horizontal padding
     // py-32: lots of vertical padding for big spacing
     // bg-white: white background to match navbar
-    <section className="HeroSection bg-white px-4 md:px-8 py-12 md:py-20 text-center" id="home">
+    <section className="HeroSection bg-white px-4 md:px-8 pt-16 pb-10 md:pt-24 md:pb-16 text-center" id="home">
 
       {/* RESPONSIVE FONT SIZES:
     text-4xl: smaller on mobile (default)

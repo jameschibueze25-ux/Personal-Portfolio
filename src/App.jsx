@@ -10,7 +10,7 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   // outer div allows global app-level styling
   return (
-    <div className="App">
+    <div className="App bg-white">
       <NavBarSection />
       <Routes>
         <Route path="/" element={<HomePage />} />
