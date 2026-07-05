@@ -27,18 +27,20 @@ function ProjectSection() {
           rel="noopener noreferrer"
           className="block p-8 border border-gray-200 rounded-2xl hover:shadow-lg transition text-left"
         >
-          <h3 className="text-2xl font-bold mb-3">🌤️ Weather App</h3>
+          <h3 className="text-2xl font-bold mb-3">🌤️ WEATHER APP</h3>
 
           <p className="text-gray-600 mb-4">
             Real-time weather forecasts using OpenWeatherMap API.
           </p>
 
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 mb-4">
             <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">React</span>
             <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Tailwind CSS</span>
             <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">useEffect</span>
             <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">API</span>
           </div>
+
+          <span className="text-sm font-medium">Visit site →</span>
         </a>
 
         <a
@@ -53,7 +55,7 @@ function ProjectSection() {
             AI-powered cover letter generator for job applications.
           </p>
 
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 mb-4">
             <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">React</span>
             <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Vite</span>
             <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Tailwind CSS</span>
@@ -61,6 +63,52 @@ function ProjectSection() {
             <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Groq API</span>
             <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Fetch API</span>
           </div>
+
+          <span className="text-sm font-medium">Visit site →</span>
+        </a>
+
+        <a
+          href="https://blade-fade-berlin.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block p-8 border border-gray-200 rounded-2xl hover:shadow-lg transition text-left"
+        >
+          <h3 className="text-2xl font-bold mb-3">BLADE FADE BERLIN</h3>
+
+          <p className="text-gray-600 mb-4">
+            Showcase site for a Berlin barber shop, featuring services, a gallery, and contact information.
+          </p>
+
+          <div className="flex flex-wrap gap-2 mb-4">
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">React</span>
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Vite</span>
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">JavaScript</span>
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Tailwind CSS</span>
+          </div>
+
+          <span className="text-sm font-medium">Visit site →</span>
+        </a>
+
+        <a
+          href="https://slayinbraid.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block p-8 border border-gray-200 rounded-2xl hover:shadow-lg transition text-left"
+        >
+          <h3 className="text-2xl font-bold mb-3">SLAYIN BRAID</h3>
+
+          <p className="text-gray-600 mb-4">
+            Site for a hair braiding business with an appointment booking feature.
+          </p>
+
+          <div className="flex flex-wrap gap-2 mb-4">
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">React</span>
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Vite</span>
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">TypeScript</span>
+            <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Tailwind CSS</span>
+          </div>
+
+          <span className="text-sm font-medium">Visit site →</span>
         </a>
       </div>
     </section>
