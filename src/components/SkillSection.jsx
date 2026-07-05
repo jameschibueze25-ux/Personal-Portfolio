@@ -32,9 +32,9 @@ function SkillSection() {
 
       <div className="border-t py-8 flex flex-col md:flex-row gap-4 md:gap-12 items-start">
         <p className="font-bold flex-1">[03]</p>
-        <h3 className="text-2xl font-bold flex-1">HTML & CSS</h3>
+        <h3 className="text-2xl font-bold flex-1">Typescript</h3>
         <p className="text-gray-600 flex-1">
-          Crafting semantic HTML and styling with Tailwind CSS for responsive layouts.
+          Adding static typing to JavaScript for improved code quality and developer experience.
         </p>
       </div>
 
