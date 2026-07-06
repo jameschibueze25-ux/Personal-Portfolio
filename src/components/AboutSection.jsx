@@ -1,4 +1,4 @@
-import JamesPng from '../james.png';
+import JamesJpg from '../james.jpg';
 
 function AboutSection() {
   return (
@@ -31,7 +31,7 @@ function AboutSection() {
             object-cover: image fills the container nicely */}
         <div className="flex-1">
           <img 
-            src={JamesPng} 
+            src={JamesJpg}
             alt="James Eboka" 
             className="w-64 h-64 md:w-96 md:h-96 rounded-[3rem] mx-auto"
           />

@@ -1,5 +1,7 @@
 import HeroSection from "../components/HeroSection";
 import { Link } from "react-router-dom";
+import WeatherAppJpg from "../weather-app.jpg";
+import CoverLetterGeneratorJpg from "../cover-letter-generator.jpg";
 
 function HomePage() {
   return (
@@ -20,16 +22,24 @@ function HomePage() {
               href="https://james-weather.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="block p-6 border border-gray-200 rounded-2xl hover:shadow-lg transition text-left"
+              className="group block border border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg hover:border-emerald-200 transition text-left"
             >
-              <h3 className="text-xl font-bold mb-2">🌤️ Weather App</h3>
-              <p className="text-gray-600 text-sm mb-4">
-                Real-time weather forecasts using OpenWeatherMap API.
-              </p>
-              <div className="flex flex-wrap gap-2">
-                <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">React</span>
-                <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Tailwind CSS</span>
-                <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">API</span>
+              <img
+                src={WeatherAppJpg}
+                alt="Weather Today app homepage"
+                className="w-full h-40 object-cover object-top"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">🌤️ Weather App</h3>
+                <p className="text-gray-600 text-sm mb-4">
+                  Real-time weather forecasts using OpenWeatherMap API.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="text-xs bg-emerald-50 text-emerald-700 px-3 py-1 rounded-full">React</span>
+                  <span className="text-xs bg-emerald-50 text-emerald-700 px-3 py-1 rounded-full">Tailwind CSS</span>
+                  <span className="text-xs bg-emerald-50 text-emerald-700 px-3 py-1 rounded-full">API</span>
+                </div>
+                <span className="text-sm font-medium text-emerald-600 group-hover:underline">Visit site →</span>
               </div>
             </a>
 
@@ -37,16 +47,24 @@ function HomePage() {
               href="https://james-ai-cover-letter-generator-lake.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="block p-6 border border-gray-200 rounded-2xl hover:shadow-lg transition text-left"
+              className="group block border border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg hover:border-emerald-200 transition text-left"
             >
-              <h3 className="text-xl font-bold mb-2">AI Cover Letter Generator</h3>
-              <p className="text-gray-600 text-sm mb-4">
-                AI-powered cover letter generator for job applications.
-              </p>
-              <div className="flex flex-wrap gap-2">
-                <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">React</span>
-                <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Groq API</span>
-                <span className="text-xs bg-gray-100 px-3 py-1 rounded-full">Tailwind CSS</span>
+              <img
+                src={CoverLetterGeneratorJpg}
+                alt="AI Cover Letter Generator homepage"
+                className="w-full h-40 object-cover object-top"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-2">AI Cover Letter Generator</h3>
+                <p className="text-gray-600 text-sm mb-4">
+                  AI-powered cover letter generator for job applications.
+                </p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="text-xs bg-emerald-50 text-emerald-700 px-3 py-1 rounded-full">React</span>
+                  <span className="text-xs bg-emerald-50 text-emerald-700 px-3 py-1 rounded-full">Groq API</span>
+                  <span className="text-xs bg-emerald-50 text-emerald-700 px-3 py-1 rounded-full">Tailwind CSS</span>
+                </div>
+                <span className="text-sm font-medium text-emerald-600 group-hover:underline">Visit site →</span>
               </div>
             </a>
           </div>

@@ -20,10 +20,10 @@ function SocialMediaSection() {
         {/* hover:underline: adds underline on hover for nice interaction */}
         <li>
           <a 
-            href="https://github.com/jameschibueze25-ux" 
-            target="_blank" 
+            href="https://github.com/jameschibueze25-ux"
+            target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
+            className="hover:text-emerald-600 transition-colors"
           >
             GitHub
           </a>
@@ -31,10 +31,10 @@ function SocialMediaSection() {
 
         <li>
           <a 
-            href="https://www.linkedin.com/in/james-eboka-a99a77235/" 
-            target="_blank" 
+            href="https://www.linkedin.com/in/james-eboka-a99a77235/"
+            target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
+            className="hover:text-emerald-600 transition-colors"
           >
             LinkedIn
           </a>
@@ -43,7 +43,7 @@ function SocialMediaSection() {
         <li>
           <a 
             href="mailto:JamesChibueze25@gmail.com"
-            className="hover:underline"
+            className="hover:text-emerald-600 transition-colors"
           >
             Email
           </a>

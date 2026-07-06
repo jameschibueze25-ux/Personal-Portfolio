@@ -63,7 +63,7 @@ function ContactSection() {
           placeholder="Your Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-black"
+          className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-emerald-600"
         />
 
         <input
@@ -72,7 +72,7 @@ function ContactSection() {
           placeholder="Your Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-black"
+          className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-emerald-600"
         />
 
         {/* h-32: taller height for the message box */}
@@ -81,7 +81,7 @@ function ContactSection() {
           placeholder="Your Message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          className="w-full p-4 border border-gray-300 rounded-lg h-32 focus:outline-none focus:border-black"
+          className="w-full p-4 border border-gray-300 rounded-lg h-32 focus:outline-none focus:border-emerald-600"
         />
 
         {/* bg-black: black background button
@@ -90,9 +90,9 @@ function ContactSection() {
             rounded-lg: rounded corners
             hover:bg-gray-800: lighter black on hover
             transition: smooth color change */}
-        <button 
-          type="submit" 
-          className="bg-black text-white py-4 rounded-lg hover:bg-gray-800 transition"
+        <button
+          type="submit"
+          className="bg-emerald-600 text-white py-4 rounded-lg hover:bg-emerald-700 transition"
         >
           Send Message
         </button>

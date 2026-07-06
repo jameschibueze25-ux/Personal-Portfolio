@@ -12,22 +12,22 @@ function NavBarSection() {
           {/* flex: lays the menu items horizontally
           gap-8: adds spacing (32px) between each item */}
           <li className="nav-item">
-            <Link to="/" className="nav-link hover:underline">
+            <Link to="/" className="nav-link hover:text-emerald-600 transition-colors">
               Home
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/about" className="nav-link hover:underline">
+            <Link to="/about" className="nav-link hover:text-emerald-600 transition-colors">
               About
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/contact" className="nav-link hover:underline">
+            <Link to="/contact" className="nav-link hover:text-emerald-600 transition-colors">
               Contact
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/project" className="nav-link hover:underline">
+            <Link to="/project" className="nav-link hover:text-emerald-600 transition-colors">
               Projects
             </Link>
           </li>
